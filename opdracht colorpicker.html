@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/opdracht%20colorpicker.css">
+    <title>opdracht colorpicker</title>
+</head>
+<body>
+<nav><a href="index.html">index</a></nav>
+<div class="colorpicker">
+    <div class="details">
+        <div class="detail">
+            <span>0<label for="sRood"></label><input type="range" id="sRood" class="slider" value="128" min="0" max="255" />255</span>
+            <span>Red</span>
+            <span id="lRood">0</span>
+        </div>
+        <div class="detail">
+            <span>0<label for="sGroen"></label><input type="range" id="sGroen" class="slider" value="255" min="0" max="255" />255</span>
+            <span>Green</span>
+            <span id="lGroen">0</span>
+        </div>
+        <div class="detail">
+            <span>0<label for="sBlauw"></label><input type="range" id="sBlauw" class="slider" value="128" min="0" max="255" />255</span>
+            <span>Blue</span>
+            <span id="lBlauw">0</span>
+        </div>
+    </div>
+    <div class="shape" id="shape"></div>
+</div>
+<script type="text/javascript" charset="utf-8" src="scripts/opdracht%20colorpicker.js"></script>
+</body>
+</html>
